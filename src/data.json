@@ -3,20 +3,23 @@
     {
       "id": 1,
       "header": "HI! ",
-      "text": ["I'm Matthias and this is my portfolio"," I'm a Front-End developer from Stockholm. I'm passionate about making better www's, one website at a time. This site is for displaying some projects I have done and which I am particularly proud of."],
-      "bgColor": "linear-gradient(180deg, #F3BC37 0%, #F2D899 99.42%"
+      "text": ["I'm Matthias and this is my portfolio", "If you want to see more swipe right!"],
+      "bgColor": "linear-gradient(180deg, #F3BC37 0%, #F2D899 99.42%",
+      "list": []
     },
     {
       "id": 2,
-      "header": "a little info about me",
-      "text": ["Geek, martial art and diving"],
-      "bgColor": "linear-gradient(180deg, #2A9D8F 0%, #39CBB9 100%)"
+      "header": "Little info about me",
+      "text": [" I'm a Front-End developer from Stockholm. I'm passionate about making better www's, one website at a time.", "Geek, martial art and diving"],
+      "bgColor": "linear-gradient(180deg, #2A9D8F 0%, #39CBB9 100%)",
+      "list": []
     },
     {
       "id": 3,
-      "header": "What can i do?",
-      "text": ["After thinking about which my personal qualities are as a developer, I think I can summarize it as that I like challenges and to create something unique and user-friendly. I am driven to learn new things and take great pride in what I do I have tried to identify some keywords that show what I regularly work with and feel that I have mastered"],
-      "bgColor": "linear-gradient(180deg, #264653 0%, #468097 100%)"
+      "header": "What can i do then?",
+      "text": ["Efter att ha pluggat, praktiserat samt lite job inom frontend har jag kommit en bit på värgen att lära mig webben. Har en god nivå bland grunderna samt förjupat mig i ramverk främst react.", "Some key words:" ],
+      "bgColor": "linear-gradient(180deg, #264653 0%, #468097 100%)",
+      "list": ["HTML", "css", "JavaScript", "React", "Agular", "Svelt", "UI & UX", "Scrum"]
     }
   ]
 }

@@ -18,10 +18,10 @@ function App() {
 
       <footer className="footer">
         <div className='media-grup'>
-          <img className="media" src={linkdin} />
-          <img className="media" src={github} />
-          <img className="media" src={mail} />
-          <img className="media" src={spotify} />
+          <img className="media" alt="linkedin" src={linkdin} />
+          <img className="media" alt="Github" src={github} />
+          <img className="media" alt="mail" src={mail} />
+          <img className="media" alt="Spotify" src={spotify} />
         </div>
       </footer>
     </div>
