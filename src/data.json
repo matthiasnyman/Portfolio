@@ -1,0 +1,22 @@
+{
+  "view": [
+    {
+      "id": 1,
+      "header": "HI! ",
+      "text": "I'm Matthias and this is my portfolio \n to see more try to swipe right",
+      "bgColor": "linear-gradient(180deg, #F3BC37 0%, #F2D899 99.42%"
+    },
+    {
+      "id": 2,
+      "header": "a little info about me",
+      "text": "Geek, martial art and diving",
+      "bgColor": "linear-gradient(180deg, #2A9D8F 0%, #39CBB9 100%)"
+    },
+    {
+      "id": 3,
+      "header": "What can i do?",
+      "text": "nothing...",
+      "bgColor": "linear-gradient(180deg, #E76F51 0%, #DC9482 100%)"
+    }
+  ]
+}
