@@ -1,12 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import DemoSimple from './demo';
 
+import logo from './img/logo.svg';
+import linkdin from './img/linkdin.svg';
+import github from './img/github.svg';
+import mail from './img/Vectormail.svg';
+import spotify from './img/Vectorspotify.svg';
+
 function App() {
-
-
   return (
     <div className="App">
       <img src={logo} className="App-logo" alt="logo" />
@@ -14,7 +17,12 @@ function App() {
       <DemoSimple />
 
       <footer className="footer">
-        <h3>Footer</h3>
+        <div className='media-grup'>
+          <img className="media" src={linkdin} />
+          <img className="media" src={github} />
+          <img className="media" src={mail} />
+          <img className="media" src={spotify} />
+        </div>
       </footer>
     </div>
   );

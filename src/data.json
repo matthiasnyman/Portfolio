@@ -3,20 +3,20 @@
     {
       "id": 1,
       "header": "HI! ",
-      "text": "I'm Matthias and this is my portfolio \n to see more try to swipe right",
+      "text": ["I'm Matthias and this is my portfolio"," I'm a Front-End developer from Stockholm. I'm passionate about making better www's, one website at a time. This site is for displaying some projects I have done and which I am particularly proud of."],
       "bgColor": "linear-gradient(180deg, #F3BC37 0%, #F2D899 99.42%"
     },
     {
       "id": 2,
       "header": "a little info about me",
-      "text": "Geek, martial art and diving",
+      "text": ["Geek, martial art and diving"],
       "bgColor": "linear-gradient(180deg, #2A9D8F 0%, #39CBB9 100%)"
     },
     {
       "id": 3,
       "header": "What can i do?",
-      "text": "nothing...",
-      "bgColor": "linear-gradient(180deg, #E76F51 0%, #DC9482 100%)"
+      "text": ["After thinking about which my personal qualities are as a developer, I think I can summarize it as that I like challenges and to create something unique and user-friendly. I am driven to learn new things and take great pride in what I do I have tried to identify some keywords that show what I regularly work with and feel that I have mastered"],
+      "bgColor": "linear-gradient(180deg, #264653 0%, #468097 100%)"
     }
   ]
 }

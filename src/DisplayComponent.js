@@ -8,12 +8,18 @@ const DisplayComponent = (props) => {
     backgroundImage: bgColor
   }
 
+  const textSection = [];
+
+  text.forEach(text => {
+    textSection.push(<p>{text}</p>)
+  });
+
 
   return(
     <section className="sections" style={sectionStyle}>
       <h3> {header} </h3>
 
-      <p>{text}</p>
+      {textSection}
 
     </section>
   )

@@ -9,14 +9,20 @@
   height: 4em;
   cursor: pointer;
   z-index: 50;
+  color: #FFFFFF;
 }
 
 
 .sections{
-  height: 90vh;
+  min-height: 80vh;
   color: #FFFFFF;
   z-index: 10;
-  padding: 2em 3em;
+  padding: 3em 3em;
+}
+
+.sections p {
+  max-width: 60%;
+  margin: auto;
 }
 
 button{
@@ -29,12 +35,38 @@ button{
 
 
 .footer{
-  position: fixed;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
   bottom: 0;
-  width: 100%;
-  background: linear-gradient(180deg, #676363 0%, #1E1D1D 100%);
-  max-height: 10vh;
+  width: calc(100%- 2em);
+  background: #363636;
+  height: 70px;  
+}
 
-  
+footer:before {
+  content:"";
+  position: absolute;
+  bottom: 69px;
+  height:60px;
+  left:0;
+  right:0;
+  background:linear-gradient(to bottom right, transparent 49%, #363636 50%);
+}
+
+
+.media-grup{
+  margin: auto;
+  max-width: 500px;
+  justify-content: space-evenly;
+
+}
+
+.media{
+  width: 2em;
+  cursor: pointer;
+  margin: 1em;
 }
 
