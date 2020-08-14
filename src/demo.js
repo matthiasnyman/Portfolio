@@ -3,6 +3,8 @@ import SwipeableViews from 'react-swipeable-views';
 
 import Data from './data.json';
 import DisplayComponent from './DisplayComponent';
+import logo from './img/logo.svg';
+
 
 import arrow from './img/arrow.svg';
 
@@ -36,6 +38,8 @@ function DemoSimple() {
 
   return (
     <>
+      <img src={logo} onClick={() => setIndex(0)} className="App-logo" alt="logo" />
+
       <SwipeableViews
         enableMouseEvents
         index={index}

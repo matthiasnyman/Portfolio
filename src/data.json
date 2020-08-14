@@ -19,7 +19,14 @@
       "header": "What can i do then?",
       "text": ["Efter att ha pluggat, praktiserat samt lite job inom frontend har jag kommit en bit på värgen att lära mig webben. Har en god nivå bland grunderna samt förjupat mig i ramverk främst react.", "Some key words:" ],
       "bgColor": "linear-gradient(180deg, #264653 0%, #468097 100%)",
-      "list": ["HTML", "css", "JavaScript", "React", "Agular", "Svelt", "UI & UX", "Scrum"]
+      "list": ["HTML", "css", "JavaScript", "C#", "React", "Agular", "Svelt", "Redux", "Bootstrap", "UI & UX", "git", "Scrum"]
+    },
+    {
+      "id": 4,
+      "header": "Links to some fun projects",
+      "text": ["car-bingo game- made with react and strapi tho i wanted to test headless", "https://github.com/matthiasnyman/bingo", "Got a exersice where i in 1 week where to build a platform for a floorbal turnament with react and .net", "https://github.com/matthiasnyman/floorball"],
+      "bgColor": "linear-gradient(180deg, #AB19F0 0%, #D07FF7 100%",
+      "list": []
     }
   ]
 }

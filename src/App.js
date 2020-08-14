@@ -3,7 +3,6 @@ import './App.css';
 
 import DemoSimple from './demo';
 
-import logo from './img/logo.svg';
 import linkdin from './img/linkdin.svg';
 import github from './img/github.svg';
 import mail from './img/Vectormail.svg';
@@ -12,8 +11,6 @@ import spotify from './img/Vectorspotify.svg';
 function App() {
   return (
     <div className="App">
-      <img src={logo} className="App-logo" alt="logo" />
-
       <DemoSimple />
 
       <footer className="footer">
