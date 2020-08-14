@@ -26,7 +26,7 @@ const DisplayComponent = (props) => {
 
       {textSection}
 
-      <ul> {listItems} </ul>
+      <ul className='list-fild'> {listItems} </ul>
     </section>
   );
 };

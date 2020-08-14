@@ -4,6 +4,8 @@ import SwipeableViews from 'react-swipeable-views';
 import Data from './data.json';
 import DisplayComponent from './DisplayComponent';
 
+import arrow from './img/arrow.svg';
+
 function DemoSimple() {
   const [data, setData] = useState(Data.view);
   const [index, setIndex] = useState(0);
@@ -55,6 +57,9 @@ function DemoSimple() {
         ></span>
 
       </div>
+      {
+        index === 0 ? <img src={arrow} className='swipe-arror' alt="swipe arrow" /> : null
+      }
     </>
   );
 }

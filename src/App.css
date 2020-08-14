@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
 }
 
@@ -27,6 +27,16 @@ body{
   width: 80%;
   max-width: 500px;
   margin: 2em auto;
+}
+
+.list-fild {
+  list-style: none;
+  margin: auto;
+  max-width: 500px;
+
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
 }
 
 .footer {
@@ -72,51 +82,66 @@ footer:before {
   height: 40px;
   justify-content: space-evenly;
   flex-direction: row;
-
 }
 
-.arrow {
-  display: block;
-  position: relative;
-  cursor: pointer;
-  width: 30px;
-  height: 30px;
-  margin: 0;
-  border: solid 3px #FFFFFF;
-  border-radius: 100%;
-  transition: all 0.2s linear;
+@media only screen and (min-device-width: 768px) {
+  .arrow {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    border: solid 3px #ffffff;
+    border-radius: 100%;
+    transition: all 0.2s linear;
+  }
+  #back {
+    transform: rotate(180deg);
+    right: 0;
+  }
+  .arrow:before,
+  .arrow:after {
+    content: '';
+    position: absolute;
+    width: 35%;
+    height: 10%;
+    top: 41%;
+    left: 55%;
+    margin: 0;
+    background: #fff;
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition: all 0.2s linear;
+  }
+  .arrow:after {
+    z-index: 3;
+    top: 59%;
+    left: 55%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  .arrow:hover {
+    border: solid 5px #fff;
+  }
+  .arrow:hover:after,
+  .arrow:hover:before {
+    background: #fff;
+  }
+  .arrow:active {
+    border: solid 4px #fff;
+  }
+  .arrow:active:after,
+  .arrow:active:before {
+    background: #fff;
+  }
+
+  .swipe-arror{
+    display: none;
+  }
 }
-#back{
-  transform: rotate(180deg);
-  right: 0;
-}
-.arrow:before, .arrow:after {
-  content: "";
-  position: absolute;
-  width: 35%;
-  height: 10%;
-  top: 41%;
-  left: 55%;
-  margin: 0;
-  background: #FFF;
-  transform: translate(-50%, -50%) rotate(45deg);
-  transition: all 0.2s linear;
-}
-.arrow:after {
-  z-index: 3;
-  top: 59%;
-  left: 55%;
-  transform: translate(-50%, -50%) rotate(-45deg);
-}
-.arrow:hover {
-  border: solid 5px #FFF;
-}
-.arrow:hover:after, .arrow:hover:before {
-  background: #FFF;
-}
-.arrow:active {
-  border: solid 4px #FFF;
-}
-.arrow:active:after, .arrow:active:before {
-  background: #FFF;
+
+.swipe-arror {
+  position: fixed;
+  bottom: 30vh;
+  left: calc(50% - 50px);
+  width: 100px;
 }
