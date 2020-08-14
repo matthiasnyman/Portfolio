@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -9,33 +13,23 @@
   height: 4em;
   cursor: pointer;
   z-index: 50;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-
-.sections{
+.sections {
   min-height: 80vh;
-  color: #FFFFFF;
+  color: #ffffff;
   z-index: 10;
   padding: 3em 3em;
 }
 
-.text-fild{
+.text-fild {
   width: 80%;
   max-width: 500px;
   margin: 2em auto;
 }
 
-button{
-  position: fixed;
-  right: 2em;
-  top: calc(50vh - 20px);
-  height: 40px;
-  z-index: 200;
-}
-
-
-.footer{
+.footer {
   position: relative;
   display: flex;
   align-items: center;
@@ -44,30 +38,85 @@ button{
   bottom: 0;
   width: calc(100%);
   background: #363636;
-  height: 70px;  
+  height: 70px;
 }
 
 footer:before {
-  content:"";
+  content: '';
   position: absolute;
   bottom: 69px;
-  height:60px;
-  left:0;
-  right:0;
-  background:linear-gradient(to bottom right, transparent 49%, #363636 50%);
+  height: 60px;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to bottom right, transparent 49%, #363636 50%);
 }
 
-
-.media-grup{
+.media-grup {
   margin: auto;
-  max-width: 500px;
+  max-width: 700px;
   justify-content: space-evenly;
-
 }
 
-.media{
+.media {
   width: 2em;
   cursor: pointer;
   margin: 1em;
 }
 
+.arrow-group {
+  display: flex;
+  position: fixed;
+  bottom: 100px;
+  left: 2em;
+  width: 100px;
+  height: 40px;
+  justify-content: space-evenly;
+  flex-direction: row;
+
+}
+
+.arrow {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  border: solid 3px #FFFFFF;
+  border-radius: 100%;
+  transition: all 0.2s linear;
+}
+#back{
+  transform: rotate(180deg);
+  right: 0;
+}
+.arrow:before, .arrow:after {
+  content: "";
+  position: absolute;
+  width: 35%;
+  height: 10%;
+  top: 41%;
+  left: 55%;
+  margin: 0;
+  background: #FFF;
+  transform: translate(-50%, -50%) rotate(45deg);
+  transition: all 0.2s linear;
+}
+.arrow:after {
+  z-index: 3;
+  top: 59%;
+  left: 55%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+.arrow:hover {
+  border: solid 5px #FFF;
+}
+.arrow:hover:after, .arrow:hover:before {
+  background: #FFF;
+}
+.arrow:active {
+  border: solid 4px #FFF;
+}
+.arrow:active:after, .arrow:active:before {
+  background: #FFF;
+}
