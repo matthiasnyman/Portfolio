@@ -14,11 +14,19 @@ function App() {
       <DemoSimple />
 
       <footer className="footer">
-        <div className='media-grup'>
-          <img className="media" alt="linkedin" src={linkdin} />
-          <img className="media" alt="Github" src={github} />
-          <img className="media" alt="mail" src={mail} />
-          <img className="media" alt="Spotify" src={spotify} />
+        <div className="media-grup">
+          <a href="https://www.linkedin.com/in/matthias-nyman/" target="_blanc">
+            <img className="media" alt="linkedin" src={linkdin} />
+          </a>
+          <a href="https://github.com/matthiasnyman" target="_blanc">
+            <img className="media" alt="Github" src={github} />
+          </a>
+          <a href="mailto: matthias1994.mn@gmail.com" target="_blanc">
+            <img className="media" alt="mail" src={mail} />
+          </a>
+          <a href="https://open.spotify.com/playlist/0WOPeoj18t3mXDd6CGmqVR?si=WCfO4Pg-RxKnN_MkT6h1Sw" target="_blanc">
+            <img className="media" alt="Spotify" src={spotify} />
+          </a>
         </div>
       </footer>
     </div>

@@ -32,6 +32,7 @@ body {
 .list-fild {
   list-style: none;
   margin: auto;
+  padding: 0;
   max-width: 500px;
 
   -webkit-column-count: 3;
