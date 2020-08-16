@@ -3,39 +3,103 @@
     {
       "id": 1,
       "header": "HI! ",
-      "text": ["I'm Matthias, Frontend Developer looking for professional challanges, and this is my portfolio.", "If you want to see more swipe right."],
+      "Paragraf": [
+        {
+          "text": "I'm Matthias, Frontend Developer looking for professional challanges, and this is my portfolio.",
+          "style": ""
+        },
+        { "text": "If you want to see more swipe right.", "style": "center" }
+      ],
       "bgColor": "linear-gradient(180deg, #F3BC37 0%, #F2D899 99.42%",
       "list": []
     },
     {
       "id": 2,
       "header": "About me",
-      "text": ["I'm a Front-End developer, living in from Stockholm. I'm passionate about making better www's, one website at a time. My guiding principles are aesthetics, functionality and user-friendliness. And I have “Keep it simple, stupid” tattooed on my left leg…. Not.",
-        "My long term goal is that I at some point of my  career will be part of a project that “makes a difference ... makes the world a little better", 
-        "And…my short-term goal is to get developing and interesting work assignments.", 
-        "#geek #martialart #diving #travelling #beerbrewing"],
+      "Paragraf": [
+        {
+          "text": "I'm a Front-End developer, living in Stockholm. I'm passionate about making better www's, one website at a time. My guiding principles are aesthetics, functionality and user-friendliness. And I have “Keep it simple, stupid” tattooed on my left leg…. Not.",
+          "style": ""
+        },
+        {
+          "text": "My long term goal is that I at some point of my  career will be part of a project that “makes a difference ... makes the world a little better",
+          "style": ""
+        },
+        {
+          "text": "And…my short-term goal is to get developing and interesting work assignments.",
+          "style": ""
+        },
+        {
+          "text": "#geek #martialart #diving #travelling #beerbrewing",
+          "style": "center"
+        }
+      ],
       "bgColor": "linear-gradient(180deg, #2A9D8F 0%, #39CBB9 100%)",
       "list": []
     },
     {
       "id": 3,
       "header": "What can i do then?",
-      "text": [
-        "After studying, practicing and doing some development work in frontend, I have come a long way in learning about web development. I have good knowledge of the basics and have immersed myself in frameworks, mainly React.",
-        "#persistent #ambitious #teamplayer #thorough", 
-        "Some key words:" 
+      "Paragraf": [
+        {
+          "text": "After studying, practicing and doing some development work in frontend, I have come a long way in learning about web development. I have good knowledge of the basics and have immersed myself in frameworks, mainly React.",
+
+          "style": ""
+        },
+        {
+          "text": "#persistent #ambitious #teamplayer #thorough",
+
+          "style": "center"
+        },
+        {
+          "text": "Some key words:",
+          "style": "center"
+        }
       ],
       "bgColor": "linear-gradient(180deg, #264653 0%, #468097 100%)",
-      "list": ["HTML", "css", "JavaScript", "C#", "React", "Agular", "Svelt", "Redux", "Bootstrap", "UI & UX", "git", "Scrum"]
+      "list": [
+        "HTML",
+        "css",
+        "JavaScript",
+        "C#",
+        "React",
+        "Agular",
+        "Svelt",
+        "Redux",
+        "Bootstrap",
+        "UI & UX",
+        "git",
+        "Scrum"
+      ]
     },
     {
       "id": 4,
-      "header": "Links to some fun projects that I have done in my spare time.",
-      "text": [
-        "Car Bingo game - made with react and strapi tho i wanted to learn headless", 
-        "https://github.com/matthiasnyman/bingo", 
-        "Got an exercise from my supervisor/school. The assignment was that I would build in a week a platform for a floorball tournament with react and .net",
-        "https://github.com/matthiasnyman/floorball"
+      "header": "Fun projects that I have done in my spare time.",
+      "Paragraf": [
+        {
+          "text": "Car Bingo game - made with react and strapi tho i wanted to learn headless",
+          "style": ""
+        },
+        {
+          "text": "https://github.com/matthiasnyman/bingo",
+          "style": "button"
+        },
+        {
+          "text": "Got an exercise from my supervisor/school. The assignment was that I would build in a week a platform for a floorball tournament with react and .net",
+          "style": ""
+        },
+        {
+          "text": "https://github.com/matthiasnyman/floorball",
+          "style": "button"
+        },
+        {
+          "text": "Karakou - Talkt to the singer in the band Karakou and made them a website",
+          "style": ""
+        },
+        {
+          "text": "https://github.com/matthiasnyman/karakou",
+          "style": "button"
+        }
       ],
       "bgColor": "linear-gradient(180deg, #AB19F0 0%, #D07FF7 100%",
       "list": []

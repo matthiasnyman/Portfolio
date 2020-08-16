@@ -3,15 +3,19 @@ import SwipeableViews from 'react-swipeable-views';
 
 import Data from './data.json';
 import DisplayComponent from './DisplayComponent';
+
 import logo from './img/logo.svg';
-
-
 import arrow from './img/arrow.svg';
+
+
 
 function DemoSimple() {
   const [data, setData] = useState(Data.view);
   const [index, setIndex] = useState(0);
   const layout = [];
+
+  console.log(data[0])
+
   data.forEach((item) => {
     layout.push(<DisplayComponent key={`component_${item.id}`} data={item} />);
   });

@@ -1,7 +1,9 @@
 import React from 'react';
 
 const DisplayComponent = (props) => {
-  const { header, text, bgColor, list } = props.data;
+  const { header, Paragraf, bgColor, list } = props.data;
+
+  console.log(props.data);
 
   const sectionStyle = {
     backgroundImage: bgColor,
@@ -10,8 +12,14 @@ const DisplayComponent = (props) => {
   const textSection = [];
   const listItems = [];
 
-  text.forEach((text) => {
-    textSection.push(<p className='text-fild'>{text}</p>);
+  Paragraf.forEach((item) => {
+    if(item.style === "center") {
+      textSection.push(<p className='text-fild center'>{item.text}</p>);
+    }else if(item.style == "button") {
+      textSection.push(<a href={item.text} className='text-fild-button'>See more</a>);
+    }else {
+      textSection.push(<p className='text-fild'>{item.text}</p>);
+    }
   });
 
   if (list) {
