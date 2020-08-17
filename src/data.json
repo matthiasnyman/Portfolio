@@ -5,36 +5,45 @@
       "header": "HI! ",
       "Paragraf": [
         {
+          "key": 1,
           "text": "I'm Matthias, Frontend Developer looking for professional challanges, and this is my portfolio.",
           "style": ""
         },
-        { "text": "If you want to see more swipe right.", "style": "center" }
+        {
+          "key": 2,
+          "text": "If you want to see more swipe right.",
+          "style": "center"
+        }
       ],
-      "bgColor": "linear-gradient(180deg, #F3BC37 0%, #F2D899 99.42%",
+      "bgColor": "#41b3a3",
       "list": []
     },
     {
       "id": 2,
-      "header": "About me",
+      "header": "Briefly about me",
       "Paragraf": [
         {
+          "key": 3,
           "text": "I'm a Front-End developer, living in Stockholm. I'm passionate about making better www's, one website at a time. My guiding principles are aesthetics, functionality and user-friendliness. And I have “Keep it simple, stupid” tattooed on my left leg…. Not.",
           "style": ""
         },
         {
-          "text": "My long term goal is that I at some point of my  career will be part of a project that “makes a difference ... makes the world a little better",
+          "key": 4,
+          "text": "My long term goal is that I at some point of my career will be part of a project that “makes a difference ... makes the world a little better”. I have done some volunteering for Kodcentrum Stockholm, teaching young people programming. That might not save the world but I feel it is important to be involved and be able to contribute",
           "style": ""
         },
         {
-          "text": "And…my short-term goal is to get developing and interesting work assignments.",
+          "key": 5,
+          "text": "And…my short-term selfish goal is to get developing and interesting work assignments. Preferably well-paid and with fantastic colleagues.",
           "style": ""
         },
         {
+          "key": 6,
           "text": "#geek #martialart #diving #travelling #beerbrewing",
           "style": "center"
         }
       ],
-      "bgColor": "linear-gradient(180deg, #2A9D8F 0%, #39CBB9 100%)",
+      "bgColor": "#c38d9e",
       "list": []
     },
     {
@@ -42,21 +51,24 @@
       "header": "What can i do then?",
       "Paragraf": [
         {
+          "key": 8,
           "text": "After studying, practicing and doing some development work in frontend, I have come a long way in learning about web development. I have good knowledge of the basics and have immersed myself in frameworks, mainly React.",
 
           "style": ""
         },
         {
+          "key": 9,
           "text": "#persistent #ambitious #teamplayer #thorough",
 
           "style": "center"
         },
         {
+          "key": 10,
           "text": "Some key words:",
           "style": "center"
         }
       ],
-      "bgColor": "linear-gradient(180deg, #264653 0%, #468097 100%)",
+      "bgColor": "#E8A87C",
       "list": [
         "HTML",
         "css",
@@ -65,11 +77,11 @@
         "React",
         "Agular",
         "Svelt",
-        "Redux",
+        "Strapi",
         "Bootstrap",
-        "UI & UX",
+        "Redux",
         "git",
-        "Scrum"
+        "Sass"
       ]
     },
     {
@@ -77,31 +89,37 @@
       "header": "Fun projects that I have done in my spare time.",
       "Paragraf": [
         {
+          "key": 11,
           "text": "Car Bingo game - made with react and strapi tho i wanted to learn headless",
           "style": ""
         },
         {
+          "key": 12,
           "text": "https://github.com/matthiasnyman/bingo",
           "style": "button"
         },
         {
+          "key": 13,
           "text": "Got an exercise from my supervisor/school. The assignment was that I would build in a week a platform for a floorball tournament with react and .net",
           "style": ""
         },
         {
+          "key": 14,
           "text": "https://github.com/matthiasnyman/floorball",
           "style": "button"
         },
         {
-          "text": "Karakou - Talkt to the singer in the band Karakou and made them a website",
+          "key": 15,
+          "text": "Karakou - The singer in the band Karakou wanted a virtual promotional tool for their gigs so I created a website for them",
           "style": ""
         },
         {
+          "key": 16,
           "text": "https://github.com/matthiasnyman/karakou",
           "style": "button"
         }
       ],
-      "bgColor": "linear-gradient(180deg, #AB19F0 0%, #D07FF7 100%",
+      "bgColor": "#85CDCA",
       "list": []
     }
   ]

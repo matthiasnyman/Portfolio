@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import DemoSimple from './demo';
+import LayoutComponent from './LayoutComponent';
 
 import linkdin from './img/linkdin.svg';
 import github from './img/github.svg';
@@ -11,7 +11,8 @@ import spotify from './img/Vectorspotify.svg';
 function App() {
   return (
     <div className="App">
-      <DemoSimple />
+
+      <LayoutComponent />
 
       <footer className="footer">
         <div className="media-grup">

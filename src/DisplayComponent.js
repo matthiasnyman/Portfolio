@@ -3,10 +3,8 @@ import React from 'react';
 const DisplayComponent = (props) => {
   const { header, Paragraf, bgColor, list } = props.data;
 
-  console.log(props.data);
-
   const sectionStyle = {
-    backgroundImage: bgColor,
+    background: bgColor,
   };
 
   const textSection = [];
@@ -14,23 +12,23 @@ const DisplayComponent = (props) => {
 
   Paragraf.forEach((item) => {
     if(item.style === "center") {
-      textSection.push(<p className='text-fild center'>{item.text}</p>);
-    }else if(item.style == "button") {
-      textSection.push(<a href={item.text} className='text-fild-button'>See more</a>);
+      textSection.push(<p key={`text_${item.key}`} className='text-fild center'>{item.text}</p>);
+    }else if(item.style === "button") {
+      textSection.push(<a key={`text_${item.key}`} href={item.text} className='text-fild-button'>See more</a>);
     }else {
-      textSection.push(<p className='text-fild'>{item.text}</p>);
+      textSection.push(<p key={`text_${item.key}`} className='text-fild'>{item.text}</p>);
     }
   });
 
   if (list) {
     list.forEach((item) => {
-      listItems.push(<li>{item}</li>);
+      listItems.push(<li key={`list_${item}`}>{item}</li>);
     });
   }
 
   return (
     <section className="sections" style={sectionStyle}>
-      <h3> {header} </h3>
+      <h3 className='section-header'> {header} </h3>
 
       {textSection}
 

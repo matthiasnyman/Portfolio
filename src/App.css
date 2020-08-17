@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lars', sans-serif;
 
 }
 
@@ -25,10 +25,15 @@ body {
   padding: 3em 3em;
 }
 
+.section-header {
+  margin: 5vh 0;
+  font-size: 1.5em;
+}
+
 .text-fild {
   width: 80%;
   max-width: 500px;
-  margin: 2em auto;
+  margin: 3em auto 1em auto;
   text-align: left;
 }
 

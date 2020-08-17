@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import SwipeableViews from 'react-swipeable-views';
 
 import Data from './data.json';
@@ -9,12 +9,11 @@ import arrow from './img/arrow.svg';
 
 
 
-function DemoSimple() {
+const LayoutComponent = () => {
   const [data, setData] = useState(Data.view);
   const [index, setIndex] = useState(0);
   const layout = [];
 
-  console.log(data[0])
 
   data.forEach((item) => {
     layout.push(<DisplayComponent key={`component_${item.id}`} data={item} />);
@@ -36,9 +35,6 @@ function DemoSimple() {
     }
   };
 
-  useEffect(() => {
-    console.log(index);
-  }, [index]);
 
   return (
     <>
@@ -72,4 +68,4 @@ function DemoSimple() {
   );
 }
 
-export default DemoSimple;
+export default LayoutComponent;
