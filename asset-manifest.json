@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.07e16f22.chunk.css",
-    "main.js": "/portfolio/static/js/main.0c9e4f4c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0c9e4f4c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.a92a0ddb.chunk.css",
+    "main.js": "/portfolio/static/js/main.c5661e12.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c5661e12.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.654a2824.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.654a2824.js.map",
     "static/js/2.437f18d1.chunk.js": "/portfolio/static/js/2.437f18d1.chunk.js",
     "static/js/2.437f18d1.chunk.js.map": "/portfolio/static/js/2.437f18d1.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.6f28b396902db6826b6b85566130766d.js": "/portfolio/precache-manifest.6f28b396902db6826b6b85566130766d.js",
+    "precache-manifest.32a9d0fdde0f6943cc7ba86d5969abb3.js": "/portfolio/precache-manifest.32a9d0fdde0f6943cc7ba86d5969abb3.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.07e16f22.chunk.css.map": "/portfolio/static/css/main.07e16f22.chunk.css.map",
+    "static/css/main.a92a0ddb.chunk.css.map": "/portfolio/static/css/main.a92a0ddb.chunk.css.map",
     "static/js/2.437f18d1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.437f18d1.chunk.js.LICENSE.txt",
     "static/media/Vectormail.svg": "/portfolio/static/media/Vectormail.28365f6f.svg",
     "static/media/Vectorspotify.svg": "/portfolio/static/media/Vectorspotify.456c008a.svg",
     "static/media/arrow.svg": "/portfolio/static/media/arrow.df065c4d.svg",
-    "static/media/App.css": "/portfolio/static/media/back.d8e7fbed.jpg",
+    "static/media/App.scss": "/portfolio/static/media/back.d8e7fbed.jpg",
     "static/media/github.svg": "/portfolio/static/media/github.dbe960d2.svg",
     "static/media/linkdin.svg": "/portfolio/static/media/linkdin.860b36b0.svg",
     "static/media/logo.svg": "/portfolio/static/media/logo.1b84e468.svg"
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.654a2824.js",
     "static/js/2.437f18d1.chunk.js",
-    "static/css/main.07e16f22.chunk.css",
-    "static/js/main.0c9e4f4c.chunk.js"
+    "static/css/main.a92a0ddb.chunk.css",
+    "static/js/main.c5661e12.chunk.js"
   ]
 }
