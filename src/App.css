@@ -18,11 +18,18 @@ body {
   color: #ffffff;
 }
 
+.background{
+  background: url(./img/back.jpg) no-repeat center center fixed;
+  background-size: cover;
+  /* height: 100vh; */
+}
+
 .sections {
   min-height: 80vh;
   color: #ffffff;
   z-index: 10;
   padding: 3em 3em;
+  opacity: 80%;
 }
 
 .section-header {

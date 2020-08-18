@@ -8,7 +8,7 @@ import github from './img/github.svg';
 import mail from './img/Vectormail.svg';
 import spotify from './img/Vectorspotify.svg';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
 

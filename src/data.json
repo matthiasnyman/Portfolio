@@ -15,7 +15,7 @@
           "style": "center"
         }
       ],
-      "bgColor": "#41b3a3",
+      "bgColor": "#40B3A2",
       "list": []
     },
     {
@@ -48,7 +48,7 @@
     },
     {
       "id": 3,
-      "header": "What can i do then?",
+      "header": "What can I do then?",
       "Paragraf": [
         {
           "key": 8,
@@ -90,7 +90,7 @@
       "Paragraf": [
         {
           "key": 11,
-          "text": "Car Bingo game - made with react and strapi tho i wanted to learn headless",
+          "text": "Car Bingo game - made with react and strapi because I wanted to learn and master Headless",
           "style": ""
         },
         {
@@ -116,6 +116,16 @@
         {
           "key": 16,
           "text": "https://github.com/matthiasnyman/karakou",
+          "style": "button"
+        },
+        {
+          "key": 17,
+          "text": "Thesis - My thesis was about moving a platform from one framework to another",
+          "style": ""
+        },
+        {
+          "key": 18,
+          "text": "https://github.com/matthiasnyman/exjobb",
           "style": "button"
         }
       ],

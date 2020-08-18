@@ -4,7 +4,7 @@ const DisplayComponent = (props) => {
   const { header, Paragraf, bgColor, list } = props.data;
 
   const sectionStyle = {
-    background: bgColor,
+    background: bgColor
   };
 
   const textSection = [];

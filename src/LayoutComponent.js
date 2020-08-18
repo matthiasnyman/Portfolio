@@ -7,13 +7,10 @@ import DisplayComponent from './DisplayComponent';
 import logo from './img/logo.svg';
 import arrow from './img/arrow.svg';
 
-
-
 const LayoutComponent = () => {
   const [data, setData] = useState(Data.view);
   const [index, setIndex] = useState(0);
   const layout = [];
-
 
   data.forEach((item) => {
     layout.push(<DisplayComponent key={`component_${item.id}`} data={item} />);
@@ -37,7 +34,7 @@ const LayoutComponent = () => {
 
 
   return (
-    <>
+    <div className="background">
       <img src={logo} onClick={() => setIndex(0)} className="App-logo" alt="logo" />
 
       <SwipeableViews
@@ -64,7 +61,7 @@ const LayoutComponent = () => {
       {
         index === 0 ? <img src={arrow} className='swipe-arror' alt="swipe arrow" /> : null
       }
-    </>
+    </div>
   );
 }
 
