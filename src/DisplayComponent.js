@@ -14,7 +14,7 @@ const DisplayComponent = (props) => {
     if(item.style === "center") {
       textSection.push(<p key={`text_${item.key}`} className='text-fild center'>{item.text}</p>);
     }else if(item.style === "button") {
-      textSection.push(<a key={`text_${item.key}`} href={item.text} className='text-fild-button'>See more</a>);
+      textSection.push(<a key={`text_${item.key}`} target="_blank" href={item.text} className='text-fild-button'>See more</a>);
     }else {
       textSection.push(<p key={`text_${item.key}`} className='text-fild'>{item.text}</p>);
     }

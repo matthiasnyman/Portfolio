@@ -25,10 +25,10 @@ body {
 }
 
 .sections {
-  min-height: 80vh;
+  height: 100%;
   color: #ffffff;
   z-index: 10;
-  padding: 3em 3em;
+  padding: 3em 3em 8em 3em;
   opacity: 80%;
 }
 
@@ -87,7 +87,8 @@ body {
 }
 
 .footer {
-  position: relative;
+  position: fixed;
+  /* position: relative; */
   display: flex;
   align-items: center;
   justify-content: center;
