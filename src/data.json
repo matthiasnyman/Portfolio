@@ -2,11 +2,11 @@
   "view": [
     {
       "id": 1,
-      "header": "HI! ",
+      "header": "Hi! ",
       "Paragraf": [
         {
           "key": 1,
-          "text": "I'm Matthias, Frontend Developer looking for professional challanges, and this is my portfolio.",
+          "text": "I'm Matthias, Front-end Developer looking for professional challanges, and this is my portfolio.",
           "style": ""
         },
         {
@@ -24,7 +24,7 @@
       "Paragraf": [
         {
           "key": 3,
-          "text": "I'm a Front-End developer, living in Stockholm. I'm passionate about making better www's, one website at a time. My guiding principles are aesthetics, functionality and user-friendliness. And I have “Keep it simple, stupid” tattooed on my left leg…. Not.",
+          "text": "I'm a Front-end developer, living in Stockholm. I'm passionate about making better www's, one website at a time. My guiding principles are aesthetics, functionality and user-friendliness.",
           "style": ""
         },
         {
@@ -39,7 +39,7 @@
         },
         {
           "key": 6,
-          "text": "#geek #martialart #diving #travelling #beerbrewing",
+          "text": "#geek #martialart #diving #travelling",
           "style": "center"
         }
       ],
@@ -52,7 +52,7 @@
       "Paragraf": [
         {
           "key": 8,
-          "text": "After studying, practicing and doing some development work in frontend, I have come a long way in learning about web development. I have good knowledge of the basics and have immersed myself in frameworks, mainly React.",
+          "text": "After studying, practicing and doing some development work in front-end, I have come a long way in learning about web development. I have good knowledge of the basics and have immersed myself in frameworks, mainly React.",
 
           "style": ""
         },
@@ -100,7 +100,7 @@
         },
         {
           "key": 13,
-          "text": "Got an assignment where I would build in a week a platform for a floorball tournament with react and .net",
+          "text": "Got an assignment where I would build in a week a platform for a floorball tournament with React and .net",
           "style": ""
         },
         {
