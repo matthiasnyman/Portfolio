@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5c552e33.chunk.css",
-    "main.js": "/portfolio/static/js/main.0ee2ef28.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0ee2ef28.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.654a2824.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.654a2824.js.map",
-    "static/js/2.c4291a12.chunk.js": "/portfolio/static/js/2.c4291a12.chunk.js",
-    "static/js/2.c4291a12.chunk.js.map": "/portfolio/static/js/2.c4291a12.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.3bd81117e0561cbd29965ff3ce5df821.js": "/portfolio/precache-manifest.3bd81117e0561cbd29965ff3ce5df821.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.5c552e33.chunk.css.map": "/portfolio/static/css/main.5c552e33.chunk.css.map",
-    "static/js/2.c4291a12.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c4291a12.chunk.js.LICENSE.txt",
-    "static/media/Vectormail.svg": "/portfolio/static/media/Vectormail.28365f6f.svg",
-    "static/media/Vectorspotify.svg": "/portfolio/static/media/Vectorspotify.456c008a.svg",
-    "static/media/arrow.svg": "/portfolio/static/media/arrow.df065c4d.svg",
-    "static/media/github.svg": "/portfolio/static/media/github.dbe960d2.svg",
-    "static/media/linkdin.svg": "/portfolio/static/media/linkdin.860b36b0.svg",
-    "static/media/logo.svg": "/portfolio/static/media/logo.1b84e468.svg"
+    "main.css": "/static/css/main.2cdf32fd.chunk.css",
+    "main.js": "/static/js/main.178f57c9.chunk.js",
+    "main.js.map": "/static/js/main.178f57c9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e85517eb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e85517eb.js.map",
+    "static/js/2.437f18d1.chunk.js": "/static/js/2.437f18d1.chunk.js",
+    "static/js/2.437f18d1.chunk.js.map": "/static/js/2.437f18d1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.219c9017490c145e537c88f37b8b7810.js": "/precache-manifest.219c9017490c145e537c88f37b8b7810.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.2cdf32fd.chunk.css.map": "/static/css/main.2cdf32fd.chunk.css.map",
+    "static/js/2.437f18d1.chunk.js.LICENSE.txt": "/static/js/2.437f18d1.chunk.js.LICENSE.txt",
+    "static/media/Vectormail.svg": "/static/media/Vectormail.28365f6f.svg",
+    "static/media/Vectorspotify.svg": "/static/media/Vectorspotify.456c008a.svg",
+    "static/media/arrow.svg": "/static/media/arrow.df065c4d.svg",
+    "static/media/App.scss": "/static/media/back.d8e7fbed.jpg",
+    "static/media/github.svg": "/static/media/github.dbe960d2.svg",
+    "static/media/linkdin.svg": "/static/media/linkdin.860b36b0.svg",
+    "static/media/logo.svg": "/static/media/logo.1b84e468.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.654a2824.js",
-    "static/js/2.c4291a12.chunk.js",
-    "static/css/main.5c552e33.chunk.css",
-    "static/js/main.0ee2ef28.chunk.js"
+    "static/js/runtime-main.e85517eb.js",
+    "static/js/2.437f18d1.chunk.js",
+    "static/css/main.2cdf32fd.chunk.css",
+    "static/js/main.178f57c9.chunk.js"
   ]
 }
